@@ -36,6 +36,8 @@ params:
       url: "https://github.com/humantorch/"
     - name: "CV"
       url: "skosman_resume2022.pdf"
+    - name: "Email"
+      url: "mailto:kosman.scott@gmail.com"
 
 menu:
   main:
