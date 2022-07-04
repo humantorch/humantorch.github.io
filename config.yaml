@@ -1,0 +1,51 @@
+baseURL: 'https://humantorch.github.io/'
+languageCode: en-us
+title: scott kosman
+theme: terminal
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
+params:
+  defaultTheme: light
+  disableThemeToggle: false
+  profileMode:
+    enabled: true
+    title: "scott kosman" # optional default will be site title
+    subtitle: "Est. 1976. Engineering Leader and possible Fictional Character."
+    imageUrl: "scott.jpg" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    imageWidth: 250 # custom size
+    imageHeight: 250 # custom size
+    # buttons:
+    #   - name: "twitter"
+    #     url: "https://twitter.com/humantorch"
+    #   - name: "instagram"
+    #     url: "https://instagram.com/humantorch"
+  socialIcons: # optional
+    - name: "twitter"
+      url: "https://twitter.com/humantorch"
+    - name: "instagram"
+      url: "https://instagram.com/humantorch"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/scottkosman/"
+    - name: "github"
+      url: "https://github.com/humantorch/"
+
+menu:
+  main:
+    - identifier: about
+      name: Manager README
+      url: /post/readme/
+      weight: 10
+    - identifier: journey
+      name: journey
+      url: /tags/
+      weight: 20
+    # - identifier: 
+    #   name: example.org
+    #   url: https://example.org
+    #   weight: 30
