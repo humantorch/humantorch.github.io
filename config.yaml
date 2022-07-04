@@ -1,7 +1,7 @@
 baseURL: 'https://humantorch.github.io/'
 languageCode: en-us
 title: scott kosman
-theme: terminal
+theme: PaperMod
 
 markup:
   goldmark:
@@ -15,7 +15,7 @@ params:
   profileMode:
     enabled: true
     title: "scott kosman" # optional default will be site title
-    subtitle: "Est. 1976. Engineering Leader and possible Fictional Character."
+    subtitle: "Est. 1976. Engineering Leader and possible Fictional Character.<br><code><b>$ npx humantorch</b></code>"
     imageUrl: "scott.jpg" # optional
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 250 # custom size
@@ -34,18 +34,24 @@ params:
       url: "https://www.linkedin.com/in/scottkosman/"
     - name: "github"
       url: "https://github.com/humantorch/"
+    - name: "CV"
+      url: "skosman_resume2022.pdf"
 
 menu:
   main:
-    - identifier: about
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: readme
       name: Manager README
       url: /post/readme/
       weight: 10
     - identifier: journey
-      name: journey
-      url: /tags/
+      name: Journey
+      url: /post/journey/
       weight: 20
-    # - identifier: 
-    #   name: example.org
-    #   url: https://example.org
-    #   weight: 30
+    - identifier: about
+      name: About
+      url: /post/about
+      weight: 5
