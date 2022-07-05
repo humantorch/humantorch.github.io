@@ -3,8 +3,6 @@ title: "How To Scott"
 date: 2022-07-03T20:18:55-04:00
 draft: false
 ShowToc: true
-params:
-    ShowShareButtons: true
 ---
 
 ## What's all this then?
