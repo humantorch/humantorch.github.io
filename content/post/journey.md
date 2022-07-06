@@ -47,7 +47,7 @@ Oversight of all operations for a 20+ member Engineering team including staffing
 
 ### Director of Solution Design, adidas	
 
-FEBRUARY – DECEMBER 2019
+FEBRUARY 2016 – DECEMBER 2019
 
 adidas.com Technical Director responsible for oversight of all campaign-related development projects at adidas (web, mobile, and in-store digital display), driving and developing technology strategy and execution. 
 
