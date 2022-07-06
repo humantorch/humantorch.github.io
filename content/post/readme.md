@@ -120,7 +120,3 @@ _Repeated disclaimer:_ This is unofficial in regards to standard HR practices.
 1. I have been known to take "context, not control" to an extreme and not stepped in to provide more direction when it's been needed.
 1. Write code. This may sound strange coming from someone in technical leadership but I moved out of full-time development almost a decade ago and though I dabble with some hobby projects and try to keep up with current practices chances are you know infinitely more about writing good applications than I do.
 1. Say "no" to requests. This is something I've worked hard to correct but is still a trap I fall into. I've gotten better at delegating and such but is still an ongoing growth process.
-
-## TL;DR
-
-A bite-size (also potentially outdated) version of this entire thing is [available on Google Docs](https://goo.gl/xJgdrj). Have a gander if you wanna.
