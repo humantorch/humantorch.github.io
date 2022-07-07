@@ -1,6 +1,6 @@
 # humantorch.github.io
 
-https://prayingmadness.com is set up using Hugo on GitHub Pages, then piping it to a custom domain name.
+https://prayingmadness.com is set up using [Hugo](https://gohugo.io/) on GitHub Pages, then piping it to a custom domain name.
 
 This was a super quick, fast, and free* way to get a basic personal site up and running over the course of a single evening.
 
