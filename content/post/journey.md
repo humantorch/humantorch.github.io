@@ -24,6 +24,8 @@ Director of Engineering and Technology with nearly 20 years of expertise in soft
 
 ## Work Experience
 
+_Full work history available on [LinkedIn](https://www.linkedin.com/in/scottkosman/)_ 
+
 ### Technology Strategy & Management Consultant, Self Employed 
 
 DECEMBER 2021 – PRESENT
@@ -56,3 +58,7 @@ adidas.com Technical Director responsible for oversight of all campaign-related 
 * Definition, evolution, documentation and training around internal best-practices and guidelines.
 * Creation, execution, and revision of detailed project work plans to meet changing needs and requirements.
 * Support external development agencies with various adidas technical infrastructures (CRM, deployment, etc.).
+
+***
+
+_References available on request._
