@@ -6,7 +6,7 @@ draft: false
 
 Bicycle rider.
 
-Engineering Manager/Technical Director currently available for new roles.
+Engineering Manager at [Exos](https://teamexos.com).
 
 Scotch drinker.
 
