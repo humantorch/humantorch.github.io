@@ -15,7 +15,7 @@ params:
   profileMode:
     enabled: true
     title: "scott kosman" # optional default will be site title
-    subtitle: "Est. 1976. Engineering Manager at <a style='text-decoration: underline;' href='https://teamexos.com'>Exos</a> and possible Fictional Character.<br><code><b>$ npx humantorch</b></code>"
+    subtitle: "Est. 1976. Engineering Leader and possible Fictional Character.<br><code><b>$ npx humantorch</b></code>"
     imageUrl: "scott-2.jpg" # optional
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 250 # custom size
