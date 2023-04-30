@@ -28,12 +28,15 @@ _Full work history available on [LinkedIn](https://www.linkedin.com/in/scottkosm
 
 ### Engineering Manager, Exos
 
-JULY 2022 - APRIL 2023
+JULY 2022 - MAY 2023
 
-Leading a team of software engineers responsible for building and maintaining the Exos Fit mobile applications.
+Leading a team of 8 full-stack software engineers responsible for building and maintaining the Exos Fit mobile applications and underlying infrastructure, connecting over 300,000 eligible members to personalized health, nutrition, fitness and recovery coaches.
 
-* Led a team of 8 full-stack (React Native, Node, AWS) developers, providing both technical oversight and career growth/mentorship
 * Collaborated closely with cross-functional colleagues (Product, Data, Design, Marketing) as well as other business stakeholders and executive leadership to determine short and long-term product strategy
+* Oversee R&D of third-party implementations to bring new features and functionality to clients (eg. Apple Health & Google Fit fitness tracking integration).
+* Developed OKRs and KPIs in coordination with senior executive leadership to align the goals of our engineering organization with the larger business. Defined processes for measuring success and communicating to the wider organization.
+* The Exos Fit ecosystem generated over $1MM in revenue as a result of signing top tier clients including Google, Intel, Pfizer, PepsiCo and American Airlines and built a sales pipeline valued upwards of $10MM.
+
 
 ### Engineering Director (Contract), Double Nines, Inc.
 
