@@ -38,9 +38,8 @@ params:
       url: "skosman_resume2022.pdf"
     - name: "Email"
       url: "mailto:kosman.scott@gmail.com"
-  params:
-    assets:
-      favicon: "favicon/favicon.png"
+  assets:
+    favicon: "favicon/favicon.png"
 
 menu:
   main:
