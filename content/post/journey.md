@@ -7,7 +7,7 @@ ShowToc: true
 
 ## Position Statement
 
-Director of Engineering and Technology with nearly 20 years of expertise in software engineering. Scales inclusive, collaborative teams through hiring and coaching. Drives the continuous improvement of people, processes, and products across teams with varying needs to deliver business value.
+Engineering and Technology leader with over 20 years of expertise in software engineering. Scales inclusive, collaborative teams through hiring and coaching. Drives the continuous improvement of people, processes, and products across teams with varying needs to deliver business value.
 
 ***
 
