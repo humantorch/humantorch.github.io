@@ -26,11 +26,20 @@ Director of Engineering and Technology with nearly 20 years of expertise in soft
 
 _Full work history available on [LinkedIn](https://www.linkedin.com/in/scottkosman/)_ 
 
-### Technology Strategy & Management Consultant, Self Employed 
+### Engineering Manager, Exos
 
-DECEMBER 2021 – PRESENT
+JULY 2022 - APRIL 2023
 
-Providing both software engineering direction and senior-level technical consulting to marketing agencies, softwarestartups, and a variety of other clients/industries.
+Leading a team of software engineers responsible for building and maintaining the Exos Fit mobile applications.
+
+* Led a team of 8 full-stack (React Native, Node, AWS) developers, providing both technical oversight and career growth/mentorship
+* Collaborated closely with cross-functional colleagues (Product, Data, Design, Marketing) as well as other business stakeholders and executive leadership to determine short and long-term product strategy
+
+### Engineering Director (Contract), Double Nines, Inc.
+
+DECEMBER 2021 – JUNE 2022
+
+Providing both software engineering direction and senior-level technical consulting to a growing vehicle-sharing startup.
 
 * Directed 20+ member software development team (full-stack web development, data engineering, QA) through all stages of a project life cycle, overseeing engineering responsibilities for different platforms.
 * Agile technical lead providing guidance through all sprint ceremonies.
