@@ -6,7 +6,7 @@ draft: false
 
 Bicycle rider.
 
-Engineering Manager/Technical Director currently available for new roles.
+Engineering Manager/Technology Leader with 20+ years in the trenches as an entrepreneur, IC, people manager, department head, cheerleader, program lead, and pretty much every other role you can think of (yes, even graphic designer).
 
 Scotch drinker.
 
