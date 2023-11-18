@@ -26,7 +26,13 @@ Engineering and Technology leader with over 20 years of expertise in software en
 
 _Full work history available on [LinkedIn](https://www.linkedin.com/in/scottkosman/)_ 
 
-### Engineering Manager, Exos
+### Engineering Manager (Contract), [Media.Monks](https://media.monks.com)
+
+JUNE 2023 - NOVEMBER 2023
+
+Led multiple cross-disciplinary engineering teams in the development of a digital solution for commercial real estate transactions at a prominent U.S. bank with a workforce of over 20,000 employees. This solution provided title insurance and property/mortgage services to corporate clients worldwide.
+
+### Engineering Manager, [Exos](https://teamexos.com)
 
 JULY 2022 - MAY 2023
 
@@ -38,7 +44,7 @@ Led a team of 8 full-stack software engineers responsible for building and maint
 * Implemented a performance management and career growth framework for engineering team members with a focus on SMART goal setting and individual ownership of professional development.
 
 
-### Engineering Director (Contract), Double Nines, Inc.
+### Engineering Director (Contract), [Double Nines, Inc.](https://doublenines.co)
 
 DECEMBER 2021 – JUNE 2022
 
@@ -49,7 +55,7 @@ Provided both software engineering direction and senior-level technical consulti
 * Created and reviewed architecture plans through large-scale rewrites of significant portions of an existing application codebase.
 * Project-scoped new business efforts, including estimation. Directed developers and delivery managers through new business efforts.
 
-### Group Engineering Director, Thrillworks, Inc.	
+### Group Engineering Director, [Thrillworks, Inc.](https://thrillworks.com)	
 
 MAY 2020 – DECEMBER 2021
 
@@ -59,7 +65,7 @@ Oversaw all operations for a 20+ member engineering team including staffing/recr
 * Forecast long-term trends and business needs ensuring the team is staffed, trained, and equipped correctly.
 * Introduced a clear structure of team organization and reporting lines to a formerly very flat organizational hierarchy. Established company-wide best practices in career growth, performance management, and training programs, which resulted in increased reported employee satisfaction and confidence.
 
-### Director of Solution Design, adidas	
+### Director of Solution Design, [adidas](https://adidas.com)	
 
 FEBRUARY 2016 – DECEMBER 2019
 
