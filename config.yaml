@@ -26,8 +26,6 @@ params:
     #   - name: "instagram"
     #     url: "https://instagram.com/humantorch"
   socialIcons: # optional
-    - name: "twitter"
-      url: "https://twitter.com/humantorch"
     - name: "instagram"
       url: "https://instagram.com/humantorch"
     - name: "linkedin"
