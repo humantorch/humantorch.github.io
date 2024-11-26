@@ -109,6 +109,10 @@ _Also Important:_ going either Yellow or Red are both absolutely recoverable sit
 
 _Repeated disclaimer:_ This is unofficial in regards to standard HR practices.
 
+### A side note on PIPs
+
+PIPs are scary. Too often they're weaponized by HR against a struggling employee and used as a "we need to check this box before terminating someone" CYA technique. I hate that. Human beings are creatures of cycles and everyone – even the very best among us – go through low points where they miss goals, perform poorly, and generally have a hard time. I view PIPs as a course-correction and a way to refocus effort and energy towards growth, and I have guided direct reports through PIPs back into effective, successful working relationships. Ask me about them, I'll tell you (anonymized, ofc) stories.
+
 ## What (I think) I do well
 
 1. Context, not control. I will rarely – if ever – outright _tell_ you what to do. I'm not interested in giving you _orders,_ I'm much more interested in making sure you have _ownership._ Take ten minutes to [watch this video](https://www.youtube.com/watch?v=OqmdLcyES_Q) for a better idea of what I mean.
