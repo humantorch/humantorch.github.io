@@ -38,8 +38,6 @@ params:
       url: "mailto:kosman.scott@gmail.com"
   assets:
     favicon: "favicon/favicon.png"
-  social:
-    true
 
 menu:
   main:
