@@ -1,9 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>scott kosman</title><link>https://humantorch.github.io/</link><description>Recent content on scott kosman</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 03 Jul 2022 21:01:45 -0400</lastBuildDate><atom:link href="https://humantorch.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Journey</title><link>https://humantorch.github.io/post/journey/</link><pubDate>Sun, 03 Jul 2022 21:01:45 -0400</pubDate><guid>https://humantorch.github.io/post/journey/</guid><description>Position Statement Engineering and Technology leader with over 20 years of expertise in software engineering. Scales inclusive, collaborative teams. Drives continuous improvement of people, processes, and products across teams to deliver business value.
-Skills Excellent leadership, teaching and communication skills Deep understanding of Agile (Scrum, Kanban) technical project management and workflow Experience in managing multicultural teams of 20+ people, both local and remote worldwide (lead of leads) Mobile and Web Application Development (HTML/CSS/JavaScript/PHP/MySQL/Xcode) Enterprise cloud hosting (AWS, GCP) and Continuous Integration server (Jenkins, TeamCity) setup/maintenance Experience with many project types, including web, app, video, retail, brand, and strategic consulting Work Experience Full work history available on LinkedIn</description></item><item><title>About</title><link>https://humantorch.github.io/post/about/</link><pubDate>Sun, 03 Jul 2022 20:34:43 -0400</pubDate><guid>https://humantorch.github.io/post/about/</guid><description>Bicycle rider.
-Engineering Manager/Technology Leader with 20+ years in the trenches as an entrepreneur, IC, people manager, department head, cheerleader, program lead, and pretty much every other role you can think of (yes, even graphic designer).
-Scotch drinker.
-Not always in that order.
-Hi.
-I’m Scott. I lead project teams building websites, applications, and other computery-type things that you can click/tap/touch/swipe/wave at.
-It was the heady days of 2001. The dot-com bubble had burst, economies were in the soup, consumer dollars were nowhere to be seen, and it seemed like a really dumb time to get involved in the creative/advertising world of computers.</description></item><item><title>How To Scott</title><link>https://humantorch.github.io/post/readme/</link><pubDate>Sun, 03 Jul 2022 20:18:55 -0400</pubDate><guid>https://humantorch.github.io/post/readme/</guid><description>What&amp;rsquo;s all this then? This is my version of a &amp;ldquo;manager README.&amp;rdquo; The point of this README is to introduce myself and give you an idea of how I think, how I work and answer some questions you might have about me. This is a living document so it may will change over time as necessary. Keeping this in the open is intentional.
-What is this not? This is not going to lay out my expectations of you This is not going to say how I think any particular project should be run.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>scott kosman</title><link>https://humantorch.github.io/</link><description>Recent content on scott kosman</description><generator>Hugo -- 0.147.6</generator><language>en-us</language><lastBuildDate>Sun, 03 Jul 2022 21:01:45 -0400</lastBuildDate><atom:link href="https://humantorch.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Journey</title><link>https://humantorch.github.io/post/journey/</link><pubDate>Sun, 03 Jul 2022 21:01:45 -0400</pubDate><guid>https://humantorch.github.io/post/journey/</guid><description>&lt;h2 id="position-statement">Position Statement&lt;/h2>
+&lt;p>Engineering and Technology leader with over 20 years of expertise in software engineering. Scales inclusive, collaborative teams. Drives continuous improvement of people, processes, and products across teams to deliver business value.&lt;/p>
+&lt;hr>
+&lt;h2 id="skills">Skills&lt;/h2>
+&lt;ul>
+&lt;li>Excellent leadership, teaching and communication skills&lt;/li>
+&lt;li>Deep understanding of Agile (Scrum, Kanban) technical project management and workflow&lt;/li>
+&lt;li>Experience in managing multicultural teams of 20+ people, both local and remote worldwide (lead of leads)&lt;/li>
+&lt;li>Mobile and Web Application Development (HTML/CSS/JavaScript/PHP/MySQL/Xcode)&lt;/li>
+&lt;li>Enterprise cloud hosting (AWS, GCP) and Continuous Integration server (Jenkins, TeamCity) setup/maintenance&lt;/li>
+&lt;li>Experience with many project types, including web, app, video, retail, brand, and strategic consulting&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="work-experience">Work Experience&lt;/h2>
+&lt;p>&lt;em>Full work history available on &lt;a href="https://www.linkedin.com/in/scottkosman/">LinkedIn&lt;/a>&lt;/em>&lt;/p></description></item><item><title>About</title><link>https://humantorch.github.io/post/about/</link><pubDate>Sun, 03 Jul 2022 20:34:43 -0400</pubDate><guid>https://humantorch.github.io/post/about/</guid><description>&lt;p>Bicycle rider.&lt;/p>
+&lt;p>Engineering Manager/Technology Leader with 20+ years in the trenches as an entrepreneur, IC, people manager, department head, cheerleader, program lead, and pretty much every other role you can think of (yes, even graphic designer).&lt;/p>
+&lt;p>Scotch drinker.&lt;/p>
+&lt;p>Not always in that order.&lt;/p>
+&lt;p>Hi.&lt;/p>
+&lt;p>I’m Scott. I lead project teams building websites, applications, and other computery-type things that you can click/tap/touch/swipe/wave at.&lt;/p>
+&lt;p>It was the heady days of 2001. The dot-com bubble had burst, economies were in the soup, consumer dollars were nowhere to be seen, and it seemed like a really dumb time to get involved in the creative/advertising world of computers.&lt;/p></description></item><item><title>How To Scott</title><link>https://humantorch.github.io/post/readme/</link><pubDate>Sun, 03 Jul 2022 20:18:55 -0400</pubDate><guid>https://humantorch.github.io/post/readme/</guid><description>&lt;h2 id="whats-all-this-then">What&amp;rsquo;s all this then?&lt;/h2>
+&lt;p>This is my version of a &amp;ldquo;&lt;a href="https://managerreadme.com">manager README&lt;/a>.&amp;rdquo; The point of this README is to introduce myself and give you an idea of how I think, how I work and answer some questions you might have about me. This is a living document so it &lt;strike>may&lt;/strike> will change over time as necessary. Keeping this in the open is intentional.&lt;/p>
+&lt;h2 id="what-is-this-not">What is this not?&lt;/h2>
+&lt;ol>
+&lt;li>This is not going to lay out my expectations of you&lt;/li>
+&lt;li>This is not going to say how I think any particular project should be run.&lt;/li>
+&lt;li>This is not going to tell you how to do your job.&lt;/li>
+&lt;/ol>
+&lt;h2 id="important-note">Important note&lt;/h2>
+&lt;p>This is &lt;em>unofficial&lt;/em> in regards to any standard HR practices. Nothing in this document supersedes or replaces any standard performance-management tools or processes.&lt;/p></description></item></channel></rss>
