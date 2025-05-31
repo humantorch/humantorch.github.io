@@ -3,6 +3,7 @@
 .faceplant {box-shadow: rgba(0,0,0,0.5) 0 0 15px;}
 
 body.list,
+body.page
 body.home {
   background-color: var(--code-bg);
 }
