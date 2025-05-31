@@ -28,14 +28,19 @@ params:
   socialIcons: # optional
     - name: "instagram"
       url: "https://instagram.com/humantorch"
+      align: center
     - name: "linkedin"
       url: "https://www.linkedin.com/in/scottkosman/"
+      align: center
     - name: "github"
       url: "https://github.com/humantorch/"
+      align: center
     - name: "CV"
       url: "skosman_resume2023.pdf"
+      align: center
     - name: "Email"
       url: "mailto:kosman.scott@gmail.com"
+      align: center
   assets:
     favicon: "favicon/favicon.png"
 
