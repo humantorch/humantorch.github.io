@@ -15,7 +15,7 @@ params:
   profileMode:
     enabled: true
     title: "scott kosman" # optional default will be site title
-    subtitle: "Est. 1976. Engineering Manager at <a href=\"https://1password.com\">1Password</a>.<br><code><b>$ npx humantorch</b></code>"
+    subtitle: "Est. 1976. Engineering Manager, MSP Program at <a href=\"https://1password.com\">1Password</a>.<br><code><b>$ npx humantorch</b></code>"
     imageUrl: "scott-2.jpg" # optional
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 250 # custom size
