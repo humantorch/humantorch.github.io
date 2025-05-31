@@ -26,6 +26,13 @@ Engineering and Technology leader with over 20 years of expertise in software en
 
 _Full work history available on [LinkedIn](https://www.linkedin.com/in/scottkosman/)_ 
 
+### Engineering Manager, MSP Program, [1Password](https://1password.com)
+
+NOVEMBER 2023 – PRESENT
+
+* Leads a globally-distributed team of full stack software engineers responsible for building and maintaining 1Password's solution for Managed Service Providers
+* Integral partner in recruiting and hiring across the engineering organization, quintupling my team size in one year as well as enabling multiple hires of all seniority levels in adjacent teams
+
 ### Engineering Manager (Contract), [Media.Monks](https://media.monks.com)
 
 JUNE 2023 - NOVEMBER 2023
