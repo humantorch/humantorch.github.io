@@ -1,2 +1,12 @@
 .DS_Store
 /public
+/resources
+hugo_stats.json
+node_modules
+*.log
+.env
+.env.*
+.vscode/
+*.swp
+*.swo
+Thumbs.db
