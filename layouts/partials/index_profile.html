@@ -40,6 +40,27 @@
             {{- end }}
         </div>
         {{- end }}
+
+        <!-- Latest Blog Post Section -->
+        {{ $blogPosts := slice }}
+        {{ range site.RegularPages }}
+            {{ if and (eq .Section "post") (hasPrefix .File.Path "post/blog/") }}
+                {{ $blogPosts = $blogPosts | append . }}
+            {{ end }}
+        {{ end }}
+        
+        {{ if gt (len $blogPosts) 0 }}
+        {{ $latestPost := index (sort $blogPosts "Date" "desc") 0 }}
+        <a href="{{ $latestPost.RelPermalink }}" style="text-decoration: none; color: inherit; display: block;">
+            <div class="latest-post" style="margin-top: 2rem; padding: 1.5rem; border: 1px solid rgba(0,0,0,0.1); border-radius: 6px; background-color: rgba(0,0,0,0.02); transition: all 0.2s ease; cursor: pointer;" onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'; this.style.borderColor='rgba(0,0,0,0.15)'" onmouseout="this.style.boxShadow='none'; this.style.borderColor='rgba(0,0,0,0.1)'">
+                <h3 style="margin-top: 0; margin-bottom: 1rem; color: inherit; font-size: 1rem; opacity: 0.8;">Latest Thought</h3>
+                <article class="post-preview">
+                    <h4 style="margin: 0 0 0.5rem 0;">{{ $latestPost.Title }}</h4>
+                    <time style="opacity: 0.7; font-size: 0.9rem;">{{ $latestPost.Date.Format "January 2, 2006" }}</time>
+                </article>
+            </div>
+        </a>
+        {{ end }}
     </div>
     {{- end}}
 </div>
