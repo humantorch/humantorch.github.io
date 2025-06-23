@@ -5,3 +5,8 @@
     <meta name="twitter:title" content="scott kosman" />
     <meta name="twitter:description" content="Engineering Manager, MSP Program at 1Password" />
     <meta name="twitter:image" content="https://scottkosman.com/scott-2.jpg" />
+
+    {{ if .Site.Params.simpleAnalytics.enabled }}
+    <!-- 100% privacy-first analytics -->
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    {{ end }}
