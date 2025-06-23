@@ -2,97 +2,126 @@
 
 [![Hugo](https://img.shields.io/badge/built%20with-hugo-blue)](https://gohugo.io/) [![Theme: PaperMod](https://img.shields.io/badge/theme-PaperMod-lightgrey)](https://github.com/adityatelange/hugo-PaperMod)
 
-**Personal website and blog for Scott Kosman, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.**
+**Personal website and blog for Scott Kosman, Engineering Manager and Leadership Writer.**
 
 ---
 
 ## 🌐 Live Site
 
-Visit: [https://scottkosman.com](https://scottkosman.com)  
-(GitHub Pages: [https://humantorch.github.io](https://humantorch.github.io))
+[scottkosman.com](https://scottkosman.com)
 
 ---
 
-## 🚀 Project Overview
+## 🚀 Quick Start
 
-This site is a fast, modern, and minimal personal site and blog, deployed for free via GitHub Pages and mapped to a custom domain. It features:
+### Prerequisites
 
-- **About**: [About Scott](content/post/about.md) — background, philosophy, and story
-- **Manager README**: [How To Scott](content/post/readme.md) — Scott's approach to management and working together
-- **Journey**: [Career Journey](content/post/journey.md) — professional experience and highlights
-- **Resume**: [PDF Resume](static/skosman_resume2023.pdf)
-- **Contact & Social**: Linked in the profile section
+- [Hugo Extended](https://gohugo.io/installation/) (v0.147.6+)
+- Git
 
----
+### Local Development
 
-## 🛠️ Tech Stack
-
-- **[Hugo](https://gohugo.io/):** Static site generator
-- **[PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod):** Clean, responsive, and highly customizable
-- **GitHub Pages:** Free static hosting
-- **Custom Domain:** [scottkosman.com](https://scottkosman.com)
-
----
-
-## 📦 Quick Start
-
-1. **Clone the repo:**
+1. Clone the repository:
    ```bash
    git clone https://github.com/humantorch/humantorch.github.io.git
    cd humantorch.github.io
-   git submodule update --init --recursive
    ```
-2. **Install [Hugo](https://gohugo.io/getting-started/installing/):**
-   - macOS: `brew install hugo`
-   - Windows: [Download](https://github.com/gohugoio/hugo/releases)
-3. **Run locally:**
+
+2. Start the development server:
    ```bash
    hugo server -D
    ```
-   Visit [http://localhost:1313](http://localhost:1313)
+
+3. Open your browser and navigate to `http://localhost:1313`
 
 ---
 
-## ⚙️ Configuration & Customization
+## 🏗️ Tech Stack
 
-- **Site config:** See [`config.yaml`](config.yaml) for site title, theme, menu, and profile settings.
-- **Content:** All posts/pages are in [`content/post/`](content/post/).
-- **Custom CSS:** Add styles in [`assets/css/extended/mine.css`](assets/css/extended/mine.css).
-- **Profile & Socials:** Set in `config.yaml` under `params.profileMode` and `params.socialIcons`.
-- **Theme updates:**
-  - PaperMod is a git submodule in [`themes/PaperMod`](themes/PaperMod). Update with:
-    ```bash
-    git submodule update --remote --merge
-    ```
+- **Static Site Generator**: [Hugo](https://gohugo.io/) (v0.147.6+)
+- **Theme**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+- **Hosting**: GitHub Pages
+- **Custom Domain**: scottkosman.com
 
 ---
 
-## 🚢 Deployment
+## 📁 Project Structure
 
-- **Automatic:** Pushing to `main` deploys to GitHub Pages.
-- **Manual:** Build with `hugo` and push the `public/` folder to the `gh-pages` branch if needed.
-- **Custom Domain:** Set via `static/CNAME`.
+```
+humantorch.github.io/
+├── content/          # Blog posts and pages
+│   └── post/
+│       └── blog/     # Blog posts
+├── layouts/          # Custom templates
+├── static/           # Images, CSS, JS
+├── themes/           # PaperMod theme
+└── config.yaml       # Site configuration
+```
 
 ---
 
-## 🤝 Contributing
+## ✨ Features
 
-PRs and suggestions are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+- **Responsive Design**: Mobile-first approach
+- **Dark/Light Mode**: Automatic theme switching
+- **Blog Integration**: Latest post display on homepage
+- **SEO Optimized**: Open Graph and Twitter Card support
+- **Fast Loading**: Static site generation
 
 ---
 
-## 📄 License
+## 🎨 Customization
 
-- Site content: © Scott Kosman
-- Theme: [MIT License](themes/PaperMod/LICENSE) (PaperMod)
+### Adding Blog Posts
+
+1. Create a new markdown file in `content/post/blog/`
+2. Use the following front matter structure:
+
+```yaml
+---
+title: "Your Post Title"
+date: YYYY-MM-DD
+draft: false
+ShowToc: true
+description: "Brief description of your post"
+cover:
+  image: "https://scottkosman.com/your-cover-image.png"
+  alt: "Alt text for your cover image"
+tags:
+  - tag1
+  - tag2
+---
+```
+
+### Custom Styling
+
+- Main CSS: `assets/css/extended/mine.css`
+- Custom templates: `layouts/partials/`
+
+---
+
+## 🚀 Deployment
+
+The site automatically deploys to GitHub Pages when changes are pushed to the `main` branch.
+
+### Manual Build
+
+```bash
+hugo --environment production
+```
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- [Hugo](https://gohugo.io/)
-- [PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod)
-- [Original setup guide](https://youngkin.github.io/post/createafreeblogsite/)
+- [PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod) by Aditya Telange
+- [Hugo](https://gohugo.io/) static site generator
 
 ---
 
