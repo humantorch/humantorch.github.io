@@ -4,9 +4,7 @@ date: 2025-06-22
 draft: false
 ShowToc: true
 description: "Why defining your leadership non-negotiables early is critical to leading with integrity and trust."
-cover:
-  image: "https://scottkosman.com/leading-without-non-negotiables-cover.png"
-  alt: "Leading Without Non-Negotiables Is Just Damage Control - Scott Kosman"
+ogimage: "https://scottkosman.com/leading-without-non-negotiables-cover.png"
 tags:
   - leadership
   - management
