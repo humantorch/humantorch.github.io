@@ -42,6 +42,7 @@
 - **Theme**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 - **Hosting**: GitHub Pages
 - **Custom Domain**: scottkosman.com
+- **Analytics**: Simple Analytics (privacy-focused)
 
 ---
 
@@ -53,6 +54,8 @@ humantorch.github.io/
 │   └── post/
 │       └── blog/     # Blog posts
 ├── layouts/          # Custom templates
+│   └── partials/     # Custom partials
+│       └── templates/ # Open Graph templates
 ├── static/           # Images, CSS, JS
 ├── themes/           # PaperMod theme
 └── config.yaml       # Site configuration
@@ -64,9 +67,12 @@ humantorch.github.io/
 
 - **Responsive Design**: Mobile-first approach
 - **Dark/Light Mode**: Automatic theme switching
-- **Blog Integration**: Latest post display on homepage
+- **Blog Section**: "Thoughts" section with latest post display on homepage
+- **Social Media Integration**: LinkedIn share images for blog posts
 - **SEO Optimized**: Open Graph and Twitter Card support
+- **Privacy-First Analytics**: Simple Analytics integration
 - **Fast Loading**: Static site generation
+- **Custom Domain**: Fully configured for scottkosman.com
 
 ---
 
@@ -87,16 +93,37 @@ description: "Brief description of your post"
 cover:
   image: "https://scottkosman.com/your-cover-image.png"
   alt: "Alt text for your cover image"
+ogimage: "https://scottkosman.com/your-linkedin-share-image.png"
 tags:
   - tag1
   - tag2
 ---
 ```
 
+### LinkedIn Share Images
+
+- Create 1200x630px images for optimal LinkedIn sharing
+- Add the `ogimage` parameter to your post front matter
+- Images are automatically used for Open Graph meta tags
+
 ### Custom Styling
 
 - Main CSS: `assets/css/extended/mine.css`
 - Custom templates: `layouts/partials/`
+- Open Graph templates: `layouts/partials/templates/`
+
+---
+
+## 📊 Analytics
+
+The site uses [Simple Analytics](https://simpleanalytics.com/) for privacy-focused analytics:
+
+- No cookies or tracking scripts
+- GDPR compliant
+- Free tier: 1,000 page views/month
+- Automatically enabled via `config.yaml`
+
+To disable analytics, set `simpleAnalytics.enabled: false` in your config.
 
 ---
 
@@ -122,6 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [PaperMod Theme](https://github.com/adityatelange/hugo-PaperMod) by Aditya Telange
 - [Hugo](https://gohugo.io/) static site generator
+- [Simple Analytics](https://simpleanalytics.com/) for privacy-focused analytics
 
 ---
 

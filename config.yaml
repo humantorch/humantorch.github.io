@@ -12,6 +12,9 @@ markup:
 params:
   defaultTheme: light
   disableThemeToggle: false
+  # Simple Analytics configuration
+  simpleAnalytics:
+    enabled: true
   profileMode:
     enabled: true
     title: "scott kosman" # optional default will be site title
