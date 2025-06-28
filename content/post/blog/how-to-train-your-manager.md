@@ -55,7 +55,7 @@ I needed someone to walk alongside me while I learned how to lead, and now that'
 
 ## What I’m Doing Differently
 
-I have a Team Lead now who’s starting to take on more management responsibility — a junior engineering manager, learning the ropes. And instead of throwing them into the deep end and hoping for the best, we’re slow-playing it.
+At my day job we have a role called Team Lead which is basically a junior Engineering Manager. I have one on my team, they're someone who's been a Senior Engineer here for some years and is interested in moving into management, so instead of throwing them into the deep end and hoping for the best, we slow-play it. They get to work under an experienced manager <strike>who never makes mistakes</strike> and learn from their mistakes while slowly getting introduced to Manager Lifestyle™.
 
 We’re doing things like:
 
@@ -71,7 +71,21 @@ And most critically important of all:
 
 The goal isn’t to delay their growth. It’s to scaffold it.
 
-Leadership is a skillset. It’s not unlocked with a job title. And it *can* be taught — but only if we’re intentional about how we bring people into it.
+---
+
+## A Note For The New Managers In The Audience
+
+Are you a new manager or thinking of becoming one? 
+
+<center><small><img src="https://media4.giphy.com/media/v1.Y2lkPTZjMDliOTUyczNja3E5Y2FjbnBpYzZnZWVsajZvZG92NXR1ZzRtMHN4aXZzdDc5MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3xqh9FxO2PpiU/giphy.gif"></small></center>
+
+<center><small>Here. Come here. Have a sit.</small></center>
+
+The scariest part of moving from an IC to Management role is that you suddenly start leaving behind the skills that have made you successful. Your programming skills start moving out of the picture as more of your time becomes invested in people and process. React can do a lot of things but it can't help you coach a low-performing engineer out of the weeds or do the work of collaborating with your Product team to plan out next year's roadmap and staffing plan. That's on you and as a new manager you need to learn to flex entirely different muscles you didn't even know you had. 
+
+Leadership is a skillset. It’s not unlocked with a job title. And it *can* be taught and it *can* be learned but only if everyone involved is intentional about how we bring people into it.
+
+I've got some words coming for you soon enough, hang tight. 
 
 ---
 
