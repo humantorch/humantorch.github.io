@@ -37,7 +37,7 @@ No one really trained me. I was just suddenly "in charge." The assumption seemed
 
 <center><img alt="That's not how any of this works!" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHBlaXZuMno4aWI4dzloMzdvZnM4czBrYjYwNWd4a2ZxYXpjZXl1ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r5SxJYcU21Auk/giphy.gif"></center>
 
-<center><small>Hiring the right people is _really hard_ as it turns out.</small></center>
+<center><small>Hiring the right people is <strong>really hard</strong> as it turns out.</small></center>
 
 ---
 
