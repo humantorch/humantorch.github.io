@@ -4,7 +4,7 @@ date: 2025-07-03
 draft: false
 ShowToc: false
 description: "This moment happened almost twenty years ago, but I still think about it whenever I’m leading a team under pressure."
-ogimage: "https://scottkosman.com/the-day-the-sugar-didnt-make-it-cover.png"
+ogimage: "https://scottkosman.com/the-day-the-sugar-did-not-make-it-cover.png"
 tags:
   - leadership
   - teamwork
@@ -23,7 +23,7 @@ The garbage receptacles, he notices, are full to overflowing. Every cream dispen
 
 He approaches the counter and notes, with pleasure, that it’s his favorite server helping him this morning. No matter how busy it is, she’s always smiling. Cheerful, but not annoyingly so at 7:58 a.m. Cute, too. She usually recognizes him, and knows what drink he likes. Venti Americano, room for cream. Cranberry white-chocolate scone on the days they have them. Today, they do.
 
-Something happens as he stands at the counter.
+Something happens as he reaches the counter.
 
 Another server, one he doesn’t recognize, is also working this morning. Is she new? Transferred from another store? Normally works the evening shift? He doesn’t know. This new girl is clearly feeling stressed by the chaos of the morning. She sighs audibly, and then:
 
