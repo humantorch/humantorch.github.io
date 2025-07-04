@@ -4,7 +4,7 @@ date: 2025-07-03
 draft: false
 ShowToc: false
 description: "This moment happened almost twenty years ago, but I still think about it whenever I’m leading a team under pressure."
-ogimage: "https://scottkosman.com/the-day-the-sugar-did-not-make-it-cover.png"
+ogimage: "https://scottkosman.com/the-day-the-sugar-did-not-make-it-cover.jpg"
 tags:
   - leadership
   - teamwork
