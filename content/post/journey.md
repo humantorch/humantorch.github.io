@@ -7,18 +7,7 @@ ShowToc: true
 
 ## Position Statement
 
-Engineering and Technology leader with over 20 years of expertise in software engineering. Scales inclusive, collaborative teams. Drives continuous improvement of people, processes, and products across teams to deliver business value.
-
-***
-
-## Skills 
-
-* Excellent leadership, teaching and communication skills
-* Deep understanding of Agile (Scrum, Kanban) technical project management and workflow
-* Experience in managing multicultural teams of 20+ people, both local and remote worldwide (lead of leads)
-* Mobile and Web Application Development (HTML/CSS/JavaScript/PHP/MySQL/Xcode)
-* Enterprise cloud hosting (AWS, GCP) and Continuous Integration server (Jenkins, TeamCity) setup/maintenance 
-* Experience with many project types, including web, app, video, retail, brand, and strategic consulting
+Engineering and technology leader with 25 years of experience growing teams, scaling systems, and helping people thrive. Brings technical fluency and organizational insight to build software and teams that last.
 
 ***
 
@@ -86,4 +75,24 @@ Technical Director on adidas.com. Responsible for oversight of all campaign-rela
 
 ***
 
-_References available on request._
+## Skills 
+
+### Leadership & Team Building
+
+* Engineering Leadership & People Management
+* Cross-Functional Collaboration & Delivery
+* Coaching New Managers
+* Organizational Design & Team Health
+
+### Strategy & Operations
+
+* Agile (Scrum, Kanban)
+* OKRs / KPI Development
+* Hiring & Performance Frameworks
+* Product Delivery Planning
+
+### Technical Oversight
+
+* Web & Mobile Architecture (React, TypeScript, Node)
+* Cloud Infrastructure (AWS, GCP)
+* CI/CD & DevOps Practices (GitHub Actions, Terraform)
