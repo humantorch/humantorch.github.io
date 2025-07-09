@@ -1,6 +1,7 @@
 # humantorch.github.io
 
-[![Hugo](https://img.shields.io/badge/built%20with-hugo-blue)](https://gohugo.io/) [![Theme: PaperMod](https://img.shields.io/badge/theme-PaperMod-lightgrey)](https://github.com/adityatelange/hugo-PaperMod)
+[![Hugo](https://img.shields.io/badge/built%20with-hugo-blue)](https://gohugo.io/) [![Theme: PaperMod](https://img.shields.io/badge/theme-PaperMod-lightgrey)](https://github.com/adityatelange/hugo-PaperMod) [![MIT License](https://img.shields.io/github/license/humantorch/humantorch.github.io)](LICENSE) [![GitHub last commit](https://img.shields.io/github/last-commit/humantorch/humantorch.github.io?color=green)](https://github.com/humantorch/humantorch.github.io/commits/main)
+
 
 **Personal website and blog for Scott Kosman, Engineering Manager and Leadership Writer.**
 
