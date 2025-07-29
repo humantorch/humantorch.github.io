@@ -25,7 +25,7 @@ I know. That part sucks a little. You were probably really good at your job. Now
 
 You might miss the dopamine hit of pushing a PR or closing a ticket. That’s normal. It can be hard to feel useful when your output is meetings and docs instead of code and commits. But your job now is to build systems, not features. To coach, not to execute. To unblock and enable, not to do it all yourself.
 
-This means you need to _trust your team_ to get the work done instead of doing it yourself. Your instinct (especially under pressure) is going to be to fall back on the skills that got you this far in your career: to jump in, write the code, fix the bug, safe the fuckin' day. Occasionally a manager will need to dive in and do the ground-level work but that is the exception and not the rule because the reality is you have different _critical_ responsibilities now. 
+This means you need to _trust your team_ to get the work done instead of doing it yourself. Your instinct (especially under pressure) is going to be to fall back on the skills that got you this far in your career: to jump in, write the code, fix the bug, save the fuckin' day. Occasionally a manager will need to dive in and do the ground-level work but that is the exception and not the rule because the reality is you have different _critical_ responsibilities now. 
 
 Get comfortable with your impact being less visible but more meaningful.
 
