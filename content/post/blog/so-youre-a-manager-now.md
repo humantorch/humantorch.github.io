@@ -77,7 +77,7 @@ If your leader is checked out, incompetent, or toxic, sorry. That’s rough. But
 
 Be the kind of manager *you* wish you had. Find support elsewhere: peers, mentors, communities, even ex-managers you trusted. Set your own standard. And yeah, keep receipts. Just in case.
 
-Bad leadership above you isn’t an excuse to stop giving a damn.
+Bad leadership above you isn’t an excuse to stop giving a shit.
 
 <center><img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2hkNjFoM3VpMjd5anhkMHl0Y2d1anZseWJoZmJqajJleWJtOG94ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gdWu0t5imxLXcpSMks/giphy.gif" alt="My boss is the one with the problem"></center>
 
@@ -91,7 +91,7 @@ Bad leadership above you isn’t an excuse to stop giving a damn.
 
 Management is emotionally expensive. You’ll absorb team stress, cross-functional chaos, and your own endless self-doubt. That’s the gig. Your calendar fills up fast, and those blocks aren't just "meetings," they're your priorities on full display.
 
-You *have* to take care of yourself. Whatever that looks like: therapy, journaling, going for a damn walk, blocking off calendar time to think instead of react. Do that. Often.
+You *have* to take care of yourself. Whatever that looks like: therapy, journaling, going for a silly little walk, blocking off calendar time to think instead of react. Do that. Often.
 
 Something important to keep in mind here: burnout doesn’t always show up as dramatic exhaustion. Sometimes it sneaks in quiet. You stop caring. You feel numb. You start defaulting to “whatever.” That’s burnout too. Watch for it in yourself _and_ in your team. If you burn out, **your team burns with you.** I've been on good teams that have crumbled when their manager crashed. _I've been that manager._ It sucks.
 
