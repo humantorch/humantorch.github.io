@@ -13,6 +13,8 @@ tags:
   - mentoring
 ---
 
+> **Hi, Hacker News!** I'm glad you're here! Getting front page'd there was unexpected and cool. If you’re here from there, thanks for clicking. Hope you find something useful. Lots of good discussion in the comments there and I'm planning some follow up posts Real Soon Now™ on some of the topics brought up (performance management, upward communication, etc.) so stay tuned!
+
 Welcome to the club. You either asked for this, or someone tapped you on the shoulder and said, “Hey, you seem responsible. Wanna be in charge of other humans?” Either way, here you are. Congrats. Or condolences. Maybe both.
 
 Being a first-time manager is weird. You go from being great at your job to being a total beginner at a job that nobody really taught you how to do. There’s no “Manager Bootcamp.” There's no Bachelor's Degree in Engineering Management _(ok, actually, there is but they're scams. Just don't.)_ You’re just… here now.
