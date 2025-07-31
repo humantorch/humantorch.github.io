@@ -153,7 +153,7 @@ We all have ups and downs. A PIP, in my view, is a **course correction**, not a 
 
 ## What I Think I Do Well
 
-- ✅ Provide context without control. (Watch [this fantastic ten-minute video](https://www.youtube.com/watch?v=H1ye7TXbJ20) to understand more about this philosophy.)  
+- ✅ Provide context without control. (Watch [this fantastic ten-minute video](https://www.youtube.com/watch?v=OqmdLcyES_Q) to understand more about this philosophy.)  
 - ✅ Understand and advocate for customer needs.  
 - ✅ Avoid micromanagement.  
 - ✅ Build trust and psychological safety.
