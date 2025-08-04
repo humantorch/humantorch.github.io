@@ -1,7 +1,7 @@
 ---
 title: "So You're A Manager Now. Part 2: Performance Management"
 date: 2025-08-03
-draft: true
+draft: false
 ShowToc: true
 description: "Struggling reports and quiet high performers both need your attention. Performance management isn’t just for problems."
 ogimage: "https://scottkosman.com/so-youre-a-manager-now-perf-management.png"
