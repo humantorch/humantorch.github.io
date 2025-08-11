@@ -41,7 +41,7 @@
 {{- if eq .Title "Thoughts" }}
 <!-- Custom blog listing for Thoughts page -->
 <section class="recent-posts">
-  <h2>Recent Posts</h2>
+  <!-- <h2>Recent Posts</h2> -->
   
   {{ $blogPosts := slice }}
   {{ range .Site.RegularPages }}
@@ -50,17 +50,18 @@
       {{ end }}
   {{ end }}
   
-  {{ range first 5 $blogPosts }}
+  {{ range $blogPosts }}
   <article class="post-entry">
     <header class="entry-header">
       <h2 class="entry-hint-parent">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h2>
     </header>
-    <div class="entry-content">
+    <div class="entry-content" style="display:block; overflow:visible;">
       <time>{{ .Date.Format "January 2, 2006" }}</time>
-      {{ if .Summary }}
-          <p>{{ .Summary | plainify | htmlUnescape }}</p>
+      {{ $desc := .Description | default .Params.description | default .Summary }}
+      {{ if $desc }}
+          <p>{{ $desc | plainify | htmlUnescape }}</p>
       {{ end }}
     </div>
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
@@ -111,8 +112,9 @@
     </h2>
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+  <div class="entry-content" style="display:block; overflow:visible;">
+    {{- $desc := .Description | default .Params.description | default .Summary -}}
+    <p>{{ $desc | plainify | htmlUnescape }}</p>
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}
