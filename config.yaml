@@ -40,7 +40,7 @@ params:
       url: "mailto:kosman.scott@gmail.com"
       align: center
   assets:
-    favicon: "favicon/favicon.png"
+    favicon: "/favicon.ico"
 
 menu:
   main:
