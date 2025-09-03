@@ -1,0 +1,43 @@
+{{- /* Custom RSS template to include full post content via content:encoded */ -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML -}}
+
+{{- $pages := slice -}}
+{{- if or .IsHome .IsSection -}}
+  {{- $main := site.Params.mainSections | default (slice "post") -}}
+  {{- $pages = (where site.RegularPages "Type" "in" $main) -}}
+{{- else -}}
+  {{- $pages = .Pages -}}
+{{- end -}}
+
+{{- $limit := .Site.Config.Services.RSS.Limit | default 0 -}}
+{{- if gt $limit 0 -}}
+  {{- $pages = first $limit $pages -}}
+{{- end -}}
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    {{- $chandesc := (or .Site.Params.description (printf "%s RSS Feed" .Site.Title)) -}}
+    <description>{{ $chandesc | htmlUnescape | plainify | html }}</description>
+    <generator>Hugo</generator>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
+    {{ with .OutputFormats.Get "RSS" }}<atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />{{ end }}
+
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid>{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      {{- $desc := (or .Description .Summary) -}}
+      {{- with $desc }}<description>{{ . | htmlUnescape | plainify | html }}</description>{{ end -}}
+      {{- $raw := .Content -}}
+      {{- $cdataSafe := replace $raw "]]>" "]]]]><![CDATA[>" -}}
+      <content:encoded>{{ (printf "<![CDATA[%s]]>" $cdataSafe) | safeHTML }}</content:encoded>
+    </item>
+    {{- end }}
+  </channel>
+</rss>
+
+
