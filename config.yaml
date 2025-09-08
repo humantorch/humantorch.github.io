@@ -53,7 +53,7 @@ menu:
       url: /post/about
       weight: 5
     - identifier: blog
-      name: Thoughts
+      name: Blog
       url: /post/blog/
       weight: 8
     - identifier: readme
