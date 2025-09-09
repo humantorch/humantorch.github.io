@@ -21,7 +21,7 @@
     {{- $chandesc := (or .Site.Params.description (printf "%s RSS Feed" .Site.Title)) -}}
     <description>{{ $chandesc | htmlUnescape | plainify | html }}</description>
     <generator>Hugo</generator>
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
     {{ with .OutputFormats.Get "RSS" }}<atom:link href="{{ .Permalink }}" rel="self" type="application/rss+xml" />{{ end }}
 
     {{- range $pages }}
@@ -29,7 +29,7 @@
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <guid>{{ .Permalink }}</guid>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
       {{- $desc := (or .Description .Summary) -}}
       {{- with $desc }}<description>{{ . | htmlUnescape | plainify | html }}</description>{{ end -}}
       {{- $raw := .Content -}}
