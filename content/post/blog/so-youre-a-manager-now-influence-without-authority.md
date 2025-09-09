@@ -3,7 +3,7 @@ title: "So You're A Manager Now. Part 3: Influencing Without Authority"
 date: 2025-09-09
 draft: false
 ShowToc: true
-description: "Sometimes you have to lead people you don't manage."
+description: "Sometimes you have to lead people you don’t manage, and it’s way harder than it looks."
 ogimage: "https://scottkosman.com/so-youre-a-manager-now-influence.png"
 tags:
   - leadership
