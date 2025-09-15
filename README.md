@@ -28,6 +28,11 @@
    cd humantorch.github.io
    ```
 
+1. Clone the Papermod submodule:
+   ```bash
+   git submodule update --init
+   ```
+
 2. Start the development server:
    ```bash
    hugo server -D
