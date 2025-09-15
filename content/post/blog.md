@@ -1,5 +1,5 @@
 ---
-title: "Thoughts"
+title: "Blog"
 date: 2024-01-01T00:00:00-04:00
 draft: false
 ShowToc: false
