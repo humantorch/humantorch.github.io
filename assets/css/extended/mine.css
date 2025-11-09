@@ -4,7 +4,9 @@
 
 body.list,
 body.page,
-body.home {
+body.home,
+body.taxonomy,
+body.term {
   background-color: var(--code-bg);
 }
 
