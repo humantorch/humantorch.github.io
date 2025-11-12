@@ -72,7 +72,7 @@ Here’s how I think about AI in my day-to-day now:
 
 ### Clarity
 
-AI helps me process complexity. I alluded ot this one earlier, but when I’m unpacking a messy idea, I’ll paste my rough thoughts and ramblings into ChatGPT and ask something like “summarize what you think I'm going after here and call out any inconsistencies you see in my thinking.”
+AI helps me process complexity. I alluded to this one earlier, but when I’m unpacking a messy idea, I’ll paste my rough thoughts and ramblings into ChatGPT and ask something like “summarize what you think I'm going after here and call out any inconsistencies you see in my thinking.”
 
 ChattyG is brilliant at taking input from any number of sources (Slack threads, Google docs, Notion pages, emails, slide decks, whatever you can throw at it) and synthesizing and summarizing them into an easily-digestible single source of truth. It’s like having a structured sounding board that never gets tired of putting up with your bullshit.
 
