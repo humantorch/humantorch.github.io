@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <article class="first-entry home-info">
+    <div class="post-content entry-content">
+        {{ .Content }}
+    </div>
+      
+
+    {{ partial "social_icons.html" (dict "Site" .Site "align" "left") }}
+
+  </article>
+{{ end }}

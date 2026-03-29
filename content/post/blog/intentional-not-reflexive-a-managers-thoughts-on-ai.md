@@ -36,7 +36,7 @@ These tools were like _candy_ for me. Any chance I had to automate and abstract 
 
 <center><img src="/nothing-got-done.gif" alt="Ron Swanson: 'I'd work all night if it meant nothing got done.'"></center>
 
-Now AI tools have taken that instinct and kicked it into high gear as I've tried to implement that type of thinking in both personal projects as well as at the day job. On the home front I've recently joined a local ukulele club and used ChatGPT to build a shell script that automates building song sheet PDFs from a catalog every week, which scratches a _delightfully_ nerdy itch. At work I've set up custom GPTs to pull daily Jira sprint data for analysis, read PR metadata to highlight risks/bottlenecks, and to pipe that data into templates for the different cross-functional updates I'm responsible for.
+Now AI tools have taken that instinct and kicked it into high gear as I've tried to implement that type of thinking in both personal projects as well as at the day job. On the home front I've recently joined a local ukulele club and used Claude to build a shell script that automates building song sheet PDFs from a catalog every week, which scratches a _delightfully_ nerdy itch. At work I've set up agents to pull daily Jira sprint data for analysis, read PR metadata to highlight risks/bottlenecks, and to pipe that data into templates for the different cross-functional updates I'm responsible for.
 
 Over the past year, as I’ve experimented with AI in more of my day-to-day work, my mindset around what “using AI” really means has started to shift. The instinct to systematize the boring shit I don't want to do never left, it's just shifted from build pipelines to people systems.
 
@@ -88,7 +88,7 @@ Managers deal with a lot of sticky and complex performance management situations
 
 ### Operations
 
-This is yet another spot where my automation jam kicks back in. I've discovered how awesome AI is at collecting, summarizing, and visualizing operational data so I can spot patterns faster. Piping Jira data into ChatGPT quickly flags an overloaded engineer, a PR that's gone stale, or a potential timeline slippage. These are all things that my dumb human eyes can easily miss in the noise of all the other things vying for their attention.
+This is yet another spot where my automation jam kicks back in. I've discovered how awesome AI is at collecting, summarizing, and visualizing operational data so I can spot patterns faster. Piping everything from the current Jira sprint to an agent Jira quickly flags an overloaded engineer, a PR that's gone stale, or a potential timeline slippage. These are all things that my dumb human eyes can easily miss in the noise of all the other things vying for their attention.
 
 <center><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGF1N3d1ODZuMXNkeGM1c3I4YWExdWR3NmU1YWZjcHptbm8xZXkyNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11LK0CKzYtkaic/giphy.gif" alt="a well-oiled machine"></center>
 
@@ -96,7 +96,7 @@ This is yet another spot where my automation jam kicks back in. I've discovered 
 
 ## Power Move: Create a "Master Prompt"
 
-In true "automate all the things" fashion I've recently started using a **Master Prompt** with AI and it's been a huge shot in the arm. A Master Prompt makes sure that whatever AI you're using knows your priorities, team, needs, and communication style before you even ask it to work. Think of it as like scaffolding a web app: you're giving the system the structure and context to work in before you even get started asking or building. Creating it takes a little time, but the payoff is huge: you’re tailoring ChatGPT, Gemini, or whatever LLM of choice you happen to be using today to give you the most valuable output while cutting down on the number of times you need to refine your prompts.
+In true "automate all the things" fashion I've recently started using a **Master Prompt** with AI and it's been a huge shot in the arm. A Master Prompt makes sure that whatever AI you're using knows your priorities, team, needs, and communication style before you even ask it to work. Think of it as like scaffolding a web app: you're giving the system the structure and context to work in before you even get started asking or building. Creating it takes a little time, but the payoff is huge: you’re tailoring ChatGPT, Claude, or whatever LLM of choice you happen to be using today to give you the most valuable output while cutting down on the number of times you need to refine your prompts.
 
 Start by telling the AI your name, role, and company. Ask it to create a Master Prompt and let it fire back every question it needs to understand you and your context. Then spend the next 45 minutes or so answering everything it throws at you. Cover your job, your team, your reporting structure, your values, current projects, communication style, and anything else that matters for how you operate.
 

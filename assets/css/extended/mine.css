@@ -10,6 +10,33 @@ body.term {
   background-color: var(--code-bg);
 }
 
+h2 {
+  margin-top: 2.5rem;
+}
+
+.main {
+  max-width: 720px;
+}
+
+.profile-image {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  border-radius: 50% !important;
+  display: block;
+  margin: 0 auto 1.5rem auto !important;
+}
+
+.post-content img.profile-image {
+  border-radius: 16px !important;
+  margin: 0 auto 1.5rem auto !important;
+  display: block;
+}
+
+.post-content h2 {
+  margin-left: 0;
+}
+
 /* Custom subhead styling for blog post descriptions */
 .post-description {
   font-size: 1.18em;

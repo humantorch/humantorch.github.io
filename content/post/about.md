@@ -4,22 +4,16 @@ date: 2022-07-03T20:34:43-04:00
 draft: false
 ---
 
-Bicycle rider.
+Bicycle rider. Engineering leader building and scaling teams and systems. Scotch drinker. Not always in that order.
 
-Engineering Manager/Technology Leader with 20+ years in the trenches as an entrepreneur, IC, people manager, department head, cheerleader, program lead, and pretty much every other role you can think of (yes, even graphic designer).
+Hi, I’m Scott.
 
-Scotch drinker.
+I lead engineering teams building platform capabilities and products that support real business outcomes. My work sits at the intersection of engineering, product, and go-to-market, where I focus on turning ambiguous strategy into execution and helping teams operate effectively at scale.
 
-Not always in that order.
+I got started in 2001, right as the dot-com bubble had burst. It wasn’t exactly the ideal time to get into the industry, but I’ve never been much for conventional wisdom. Two decades later, I’m still here, still building, and still figuring out better ways to make technology actually work for people.
 
-Hi.
+At this point in my career, I spend less time thinking about individual features and more time thinking about systems: how teams are structured, how decisions get made, and how work actually moves from idea to outcome. If something only works because a specific person is holding it together, it’s fragile. I care about building things that hold up without that, even when I’m not in the room.
 
-I’m Scott. I lead project teams building websites, applications, and other computery-type things that you can click/tap/touch/swipe/wave at.
+At the end of the day, my job isn’t just building software. It’s building systems and teams that make meaningful work possible, and making sure the people doing that work have the clarity and support they need to succeed.
 
-It was the heady days of 2001. The dot-com bubble had burst, economies were in the soup, consumer dollars were nowhere to be seen, and it seemed like a really dumb time to get involved in the creative/advertising world of computers.
-
-I’ve never been much for conventional wisdom.
-
-Fast-forward 20-ish years and I find myself still here, still in the industry, still finding new ways to push the envelope of what’s possible on this “internet” thing. I’ve seen a lot of changes in the landscape – when I started out, [the internet was on computers now](http://www.youtube.com/watch?v=YozC8yFrZKI)! Today the internet is everywhere: in your pocket, on your tv, wifi in your Uber. Your fridge knows when you’re out of milk and has Instacart bring more. Software that used to come in boxes on double-digit numbers of floppy disks can now be materialised out of the sky onto your futuristic wrist-computer that was beyond the imagination of the people who wrote _Star Trek._
-
-That’s what I do: find ways to transcend the cold ones and zeroes of technology and build experiences that real people can reach out and touch. Storytelling. Ten years ago that was accomplished by building a website and hoping to get on the first page of Google. The brave new world of today is a little bit (ok, a LOT) different in that the tools we have and the avenues for communication are radically altered from what we used to know, but one thing hasn’t changed: the human soul has an intense desire to connect with something. I see my work as more than just wrangling code, I see it as providing a conduit for that connection to take place.
+If you want a deeper look at how I think and operate as a leader, you can read my [Manager README](/post/readme/).

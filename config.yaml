@@ -10,15 +10,21 @@ markup:
 
 
 params:
+  hideHomePosts: true
+  ShowPostNavLinks: false
+  disableSpecial1stPost: true
+  homeInfoParams:
+    Title: ""
+    Content: ""
   defaultTheme: light
   disableThemeToggle: false
   # Simple Analytics configuration
   simpleAnalytics:
     enabled: true
   profileMode:
-    enabled: true
+    enabled: false
     title: "scott kosman" # optional default will be site title
-    subtitle: "Est. 1976. Engineering Manager, MSP Program at <a href=\"https://1password.com\">1Password</a>.<br><code><b>$ npx scottkosman</b></code>"
+    subtitle: "Engineering leader building and scaling multi-team platform organizations.<br><br>I lead MSP and Distribution engineering at <a href=\"https://1password.com\">1Password</a>, delivering $1.4M+ in net-new ARR in the first year while growing the org from a single team into a multi-team domain.<br><br>I focus on turning ambiguous strategy into execution, aligning Product, GTM, and Engineering around outcomes, and building systems that let teams operate effectively at scale.<br><br><b>What I do:</b><br>• Build and scale multi-team engineering organizations<br>• Turn strategy into clear, executable plans<br>• Align Product, GTM, and Engineering around outcomes<br>• Develop leaders and scalable systems<br>• Bring clarity to ambiguous environments<br><br><b>Selected impact:</b><br>• Scaled org from 2 to 12+ engineers with EM and Staff layers<br>• Delivered Pax8 integration 2 months early enabling ~$237K ARR<br>• Led domain generating $1.4M+ net-new ARR<br>• Maintained 0% attrition through growth and restructuring<br>• Built execution systems enabling predictable multi-team delivery<br><br><code><b>$ npx scottkosman</b></code>"
     imageUrl: "scott-2.jpg" # optional
     # imageTitle: "<title of image as alt>" # optional
     imageWidth: 250 # custom size
@@ -41,6 +47,15 @@ params:
       align: center
   assets:
     favicon: "/favicon.ico"
+    customCSS:
+    - css/extended/mine.css
+
+outputs:
+  home:
+    - HTML
+
+pagination:
+  disable: true
 
 menu:
   main:
