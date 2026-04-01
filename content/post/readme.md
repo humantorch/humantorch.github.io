@@ -161,7 +161,7 @@ We all have ups and downs. A PIP, in my view, is a **course correction**, not a 
 ## What I Think I Don’t Do Well
 
 - ❌ I’ve sometimes leaned too hard into "context without control" and waited too long to step in when someone was struggling. I’ve learned to stay more attuned and offer support sooner.
-- ❌ Haven’t written production-grade code in a long time. Expect to know more than me here.  
+- ❌ I’m not a daily coder. My hands-on work these days is tooling, automation, and side projects rather than production features. Expect to know the codebase better than I do.  
 - ❌ Historically struggled to say “no” to requests. Still working on this.
 
 ## Let’s Talk

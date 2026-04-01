@@ -63,10 +63,10 @@ menu:
       name: Home
       url: /
       weight: 1
-    - identifier: about
-      name: About
-      url: /post/about
-      weight: 5
+    # - identifier: about
+    #   name: About
+    #   url: /post/about
+    #   weight: 5
     - identifier: blog
       name: Blog
       url: /post/blog/

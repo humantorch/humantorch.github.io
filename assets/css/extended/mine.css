@@ -25,6 +25,7 @@ h2 {
   border-radius: 50% !important;
   display: block;
   margin: 0 auto 1.5rem auto !important;
+  float: left;
 }
 
 .post-content img.profile-image {
