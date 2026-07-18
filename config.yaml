@@ -10,6 +10,10 @@ markup:
 
 
 params:
+  tagline: "Bicycle rider. Engineering leader. Scotch drinker. Not always in that order."
+  label:
+    icon: "scott-2.jpg"
+    iconHeight: 40
   hideHomePosts: true
   ShowPostNavLinks: false
   disableSpecial1stPost: true

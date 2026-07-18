@@ -10,31 +10,12 @@ body.term {
   background-color: var(--code-bg);
 }
 
-h2 {
-  margin-top: 2.5rem;
-}
-
 .main {
   max-width: 720px;
 }
 
-.profile-image {
-  width: 200px !important;
-  height: 200px !important;
-  object-fit: cover;
-  border-radius: 50% !important;
-  display: block;
-  margin: 0 auto 1.5rem auto !important;
-  float: left;
-}
-
-.post-content img.profile-image {
-  border-radius: 16px !important;
-  margin: 0 auto 1.5rem auto !important;
-  display: block;
-}
-
 .post-content h2 {
+  margin-top: 2.5rem;
   margin-left: 0;
 }
 
@@ -53,4 +34,329 @@ h2 {
 /* Dark mode adjustment if needed (optional, since var(--secondary) adapts) */
 .dark .post-description {
   color: var(--secondary);
+}
+
+/* ==========================================================================
+   Site-wide font size bump (~10% over PaperMod defaults)
+   The theme hardcodes font sizes in px on individual selectors rather than
+   scaling off a root rem value, so each one is nudged here instead of a
+   single root override.
+   ========================================================================== */
+
+body {
+  font-size: 20px;
+}
+
+.page-header h1 {
+  font-size: 44px;
+}
+
+.pagination a {
+  font-size: 14px;
+}
+
+.first-entry .entry-header h1 {
+  font-size: 37px;
+}
+
+.first-entry .entry-content {
+  font-size: 18px;
+}
+
+.first-entry .entry-footer {
+  font-size: 16px;
+}
+
+.entry-header h2 {
+  font-size: 26px;
+}
+
+.entry-content {
+  font-size: 16px;
+}
+
+.entry-footer {
+  font-size: 14px;
+}
+
+.entry-cover {
+  font-size: 16px;
+}
+
+.logo a {
+  font-size: 40px;
+}
+
+#menu a,
+.lang-switch a {
+  font-size: 18px;
+}
+
+.post-title,
+.post-content h1 {
+  font-size: 44px;
+}
+
+.post-meta,
+.breadcrumbs {
+  font-size: 16px;
+}
+
+.breadcrumbs a {
+  font-size: 18px;
+}
+
+.post-content h2 {
+  font-size: 35px;
+}
+
+.post-content h3 {
+  font-size: 26px;
+}
+
+.post-content h4 {
+  font-size: 18px;
+}
+
+.post-content h5 {
+  font-size: 16px;
+}
+
+.post-content h6 {
+  font-size: 14px;
+}
+
+.post-content figure > figcaption {
+  font-size: 18px;
+}
+
+.post-content figure > figcaption > p {
+  font-size: 16px;
+}
+
+.post-tags a {
+  font-size: 16px;
+}
+
+.archive-posts {
+  font-size: 18px;
+}
+
+.archive-count,
+.archive-meta {
+  font-size: 16px;
+}
+
+.footer,
+.top-link {
+  font-size: 14px;
+}
+
+/* ==========================================================================
+   Smooth dark/light mode transition
+   Theme toggle just swaps the .dark class on body, which changes the
+   --theme/--primary/etc custom properties instantly. Fading background,
+   text, and border colors on every element turns that into a transition
+   instead of a blink. Elements that already declare their own transition
+   (post-entry press effect, top-link show/hide) get the color fade added
+   to their existing value so neither effect is lost.
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, fill 0.25s ease;
+}
+
+.button,
+.post-entry,
+.terms-tags a,
+#searchResults li {
+  transition: transform 0.1s, background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.top-link {
+  transition: visibility 0.5s, opacity 0.8s linear, background-color 0.25s ease, color 0.25s ease;
+}
+
+/* ==========================================================================
+   Click ripple
+   A soft ring expands from the pointer position on every click/tap and
+   fades out as it grows. The listener itself is skipped under
+   prefers-reduced-motion (see extend_footer.html), so no rule is needed
+   here for that case.
+   ========================================================================== */
+
+.click-ripple {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, transparent 0%, transparent 45%, var(--primary) 60%, transparent 78%);
+  filter: blur(6px);
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 9999;
+  transform: scale(0);
+  animation: click-ripple-expand 0.6s ease-out forwards;
+}
+
+@keyframes click-ripple-expand {
+  to {
+    transform: scale(35);
+    opacity: 0;
+  }
+}
+
+/* ==========================================================================
+   Header avatar
+   Uses the theme's built-in site.Params.label.icon slot (rendered inline
+   inside the logo link). Circular at all sizes; enlarged and stacked above
+   the name in the desktop sidebar below.
+   ========================================================================== */
+
+.logo a img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: brightness(1.22)contrast(.82);
+}
+
+/* ==========================================================================
+   Sticky left sidebar layout (desktop)
+   Below 1024px this collapses back to the theme's original top nav bar —
+   the sidebar-only elements just stay hidden and .header/.nav keep their
+   default (theme) styling.
+   ========================================================================== */
+
+.sidebar-tagline,
+.sidebar-social {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --sidebar-width: 300px;
+  }
+
+  body {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .header {
+    position: sticky;
+    top: 0;
+    flex: 0 0 var(--sidebar-width);
+    width: var(--sidebar-width);
+    max-height: 100vh;
+    overflow-y: auto;
+    padding: calc(var(--gap) * 2) var(--gap);
+    display: flex;
+  }
+
+  .header .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: calc(100vh - var(--gap) * 4);
+    max-width: none;
+    margin: 0;
+    line-height: normal;
+  }
+
+  .header .logo {
+    margin: 0;
+  }
+
+  .header .logo a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .header .logo a img {
+    width: 88px;
+    height: 88px;
+    margin-inline-end: 0;
+    transform: none;
+  }
+
+  .header .logo-switches {
+    display: contents;
+  }
+
+  .header #theme-toggle {
+    position: fixed;
+    top: var(--gap);
+    right: var(--gap);
+    z-index: 100;
+  }
+
+  .sidebar-tagline {
+    display: block;
+    margin-top: 12px;
+    color: var(--secondary);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .header #menu {
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: visible;
+    white-space: normal;
+    margin: var(--content-gap) 0 0 0;
+  }
+
+  .header #menu li + li {
+    margin-inline-start: 0;
+    margin-top: var(--content-gap);
+  }
+
+  .header #menu li {
+    width: 100%;
+  }
+
+  .header #menu a {
+    display: block;
+    padding-left: 14px;
+    margin-left: -14px;
+    border-left: 2px solid transparent;
+    color: var(--secondary);
+  }
+
+  .header #menu a:hover {
+    color: var(--primary);
+    border-left-color: var(--tertiary);
+  }
+
+  .header #menu a.active-link {
+    color: var(--primary);
+    font-weight: 500;
+    border-left-color: var(--primary);
+  }
+
+  .header #menu .active {
+    border-bottom: none;
+  }
+
+  .sidebar-social {
+    display: block;
+    margin-top: auto;
+  }
+
+  .sidebar-social .social-icons {
+    margin-inline-start: -10px;
+  }
+
+  .content-col {
+    flex: 1 1 0%;
+    min-width: 0;
+  }
 }

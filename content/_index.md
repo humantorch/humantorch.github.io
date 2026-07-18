@@ -1,8 +1,4 @@
-<img src="/scott-2.jpg" alt="Scott Kosman" class="profile-image" />
-
 ### `$ npx scottkosman`
-
-Bicycle rider. Engineering leader. Scotch drinker. Not always in that order.
 
 Hi, I’m Scott. I’ve spent 25 years in tech, and about a decade ago I accidentally became a manager, following the all-too-common career path of “hey, this guy writes really good code, we should put him in charge of people.” I was wholly unprepared for it. I’ve been learning and making mistakes as a leader ever since, and I wouldn’t trade it for anything.
 

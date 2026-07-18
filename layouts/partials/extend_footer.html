@@ -1,0 +1,49 @@
+{{- /* Footer custom content area start */ -}}
+
+<script>
+    (function () {
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            return;
+        }
+
+        function spawnRipple(x, y) {
+            var ripple = document.createElement('span');
+            ripple.className = 'click-ripple';
+            ripple.style.left = x + 'px';
+            ripple.style.top = y + 'px';
+            document.body.appendChild(ripple);
+            ripple.addEventListener('animationend', function () {
+                ripple.remove();
+            });
+        }
+
+        document.addEventListener('pointerdown', function (e) {
+            spawnRipple(e.clientX, e.clientY);
+        });
+
+        // This is a static site, so a link click swaps the whole document
+        // almost immediately, cutting the ripple off before it's visible.
+        // Give same-tab link navigations a brief head start so the ripple
+        // actually gets seen before the page unloads.
+        document.addEventListener('click', function (e) {
+            if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) {
+                return;
+            }
+            var link = e.target.closest('a[href]');
+            if (!link || link.target === '_blank' || link.hasAttribute('download')) {
+                return;
+            }
+            var href = link.getAttribute('href');
+            if (!href || href.charAt(0) === '#' || href.indexOf('mailto:') === 0 || href.indexOf('tel:') === 0 || href.indexOf('javascript:') === 0) {
+                return;
+            }
+            e.preventDefault();
+            var destination = link.href;
+            setTimeout(function () {
+                window.location.href = destination;
+            }, 150);
+        });
+    })();
+</script>
+
+{{- /* Footer custom content area end */ -}}

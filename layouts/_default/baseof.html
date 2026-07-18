@@ -12,10 +12,12 @@
 <body class="{{ .Kind }} {{ .Layout }}{{ if eq site.Params.defaultTheme `dark` }} dark{{ end }}" id="top">
 
     {{- partialCached "header.html" . .Page -}}
-    <main class="main">
-        {{- block "main" . }}{{ end }}
-    </main>
-    {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+    <div class="content-col">
+        <main class="main">
+            {{- block "main" . }}{{ end }}
+        </main>
+        {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+    </div>
 </body>
 
 </html>
