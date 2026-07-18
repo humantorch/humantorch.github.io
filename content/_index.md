@@ -1,4 +1,4 @@
-### `$ npx scottkosman`
+## **`$ npx scottkosman`**
 
 Hi, I’m Scott. I’ve spent 25 years in tech, and about a decade ago I accidentally became a manager, following the all-too-common career path of “hey, this guy writes really good code, we should put him in charge of people.” I was wholly unprepared for it. I’ve been learning and making mistakes as a leader ever since, and I wouldn’t trade it for anything.
 
@@ -8,19 +8,19 @@ I started as a graphic designer in 2001, right as the dot-com bubble burst, beca
 
 ### What I Do
 
-- Build and scale multi-team engineering organizations
-- Turn ambiguous strategy into clear, executable plans
-- Align Product, GTM, and Engineering around measurable outcomes
-- Develop leaders and operating systems that scale beyond individual contributors
-- Bring structure, clarity, and momentum to ambiguous environments
+- **Build and scale** multi-team engineering organizations
+- Turn ambiguous strategy into **clear, executable plans**
+- **Align** Product, GTM, and Engineering around measurable outcomes
+- Develop leaders and operating systems that **scale beyond individual contributors**
+- Bring **structure, clarity, and momentum** to ambiguous environments
 
 ### Selected Impact
 
-- Scaled org from 2 to 18 engineers, adding EM, Staff, and Team Lead layers
-- Delivered a key partner integration 2 months early, unlocking $300K+ in ARR
-- Led a product domain generating $2M+ in net-new ARR
-- Maintained 0% attrition through rapid growth, restructuring, and leadership changes
-- Built execution systems that enabled predictable multi-team delivery
+- Scaled org from **2 to 18 engineers**, adding EM, Staff, and Team Lead layers
+- Delivered a key partner integration **2 months early,** unlocking $300K+ in ARR
+- Led a product domain generating **$2M+** in net-new ARR
+- Maintained **0% attrition** through rapid growth, restructuring, and leadership changes
+- Built execution systems that enabled predictable **multi-team delivery**
 
 ### Selected Projects
 

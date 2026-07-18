@@ -1,5 +1,22 @@
 /* placeholder for eventual custom styles */
 
+/* ==========================================================================
+   Accent color
+   A warm terracotta accent threaded through links, the current-page nav
+   indicator, blockquotes, and the click ripple. Layered on top of the
+   theme's existing grayscale palette, which is left untouched everywhere
+   else. Light-mode value is deliberately darker than dark-mode's to keep
+   body-text links at AA contrast against a white background.
+   ========================================================================== */
+
+:root {
+  --accent: #c1440e;
+}
+
+.dark {
+  --accent: #e2725b;
+}
+
 .faceplant {box-shadow: rgba(0,0,0,0.5) 0 0 15px;}
 
 body.list,
@@ -7,6 +24,14 @@ body.page,
 body.home,
 body.taxonomy,
 body.term {
+  background-color: var(--code-bg);
+}
+
+/* PaperMod's own theme-vars.css has a `.dark.list { background: var(--theme) }`
+   rule (two classes) that outranks the selector above (element+class) in dark
+   mode, so list-type pages (e.g. /post/blog/) fall back to the darker
+   --theme background instead of --code-bg. Match its specificity to win. */
+body.dark.list {
   background-color: var(--code-bg);
 }
 
@@ -22,7 +47,7 @@ body.term {
 /* Custom subhead styling for blog post descriptions */
 .post-description {
   font-size: 1.18em;
-  color: var(--secondary);
+  color: var(--accent);
   font-weight: 500;
   font-style: italic;
   letter-spacing: 0.01em;
@@ -33,7 +58,33 @@ body.term {
 
 /* Dark mode adjustment if needed (optional, since var(--secondary) adapts) */
 .dark .post-description {
-  color: var(--secondary);
+  color: var(--accent);
+}
+
+/* Accent applied to in-content links, blockquotes, the current-page nav
+   indicator (both mobile underline and desktop sidebar bar), and text
+   selection. */
+
+.post-content a:not(.anchor) {
+  color: var(--accent);
+}
+
+.post-content blockquote {
+  border-inline-start-color: var(--accent);
+}
+
+strong,
+b {
+  color: var(--accent);
+}
+
+#menu .active {
+  color: var(--accent);
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
 }
 
 /* ==========================================================================
@@ -195,7 +246,7 @@ body {
   height: 40px;
   margin: -20px 0 0 -20px;
   border-radius: 50%;
-  background: radial-gradient(circle, transparent 0%, transparent 45%, var(--primary) 60%, transparent 78%);
+  background: radial-gradient(circle, transparent 0%, transparent 45%, var(--accent) 60%, transparent 78%);
   filter: blur(6px);
   opacity: 0.15;
   pointer-events: none;
@@ -337,9 +388,9 @@ body {
   }
 
   .header #menu a.active-link {
-    color: var(--primary);
+    color: var(--accent);
     font-weight: 500;
-    border-left-color: var(--primary);
+    border-left-color: var(--accent);
   }
 
   .header #menu .active {

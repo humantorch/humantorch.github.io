@@ -89,11 +89,11 @@ Let me know if that ever happens. It helps us both.
 
 ### My Preferences
 
-- 💬 In person  
-- 💬 Slack  
-- 📲 SMS / WhatsApp  
-- 🕳️ [gap] Email  
-- 🏞️ [Grand Canyon-sized gap] Anything else
+1. In person (a rarity in fully-remote work, unfortunately)
+1. Slack  
+1. SMS / WhatsApp  
+1. Email  
+1. Anything else
 
 ### Phone Calls
 
