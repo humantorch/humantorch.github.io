@@ -17,8 +17,39 @@
             });
         }
 
+        // Only spawn on an actual tap/click, not the start of a scroll swipe.
+        // Track movement between pointerdown and pointerup and bail if it's
+        // past a small threshold, since a swipe would otherwise spawn a
+        // blurred, animating layer right as the browser is trying to
+        // scroll-composite the page (this is what was causing the choppy
+        // repaint-after-scroll on iOS).
+        var pointerStart = null;
+        var MOVE_THRESHOLD = 10;
+
         document.addEventListener('pointerdown', function (e) {
-            spawnRipple(e.clientX, e.clientY);
+            pointerStart = { x: e.clientX, y: e.clientY, id: e.pointerId };
+        });
+
+        document.addEventListener('pointermove', function (e) {
+            if (!pointerStart || e.pointerId !== pointerStart.id) {
+                return;
+            }
+            var dx = e.clientX - pointerStart.x;
+            var dy = e.clientY - pointerStart.y;
+            if (Math.sqrt(dx * dx + dy * dy) > MOVE_THRESHOLD) {
+                pointerStart = null;
+            }
+        });
+
+        document.addEventListener('pointerup', function (e) {
+            if (pointerStart && e.pointerId === pointerStart.id) {
+                spawnRipple(pointerStart.x, pointerStart.y);
+            }
+            pointerStart = null;
+        });
+
+        document.addEventListener('pointercancel', function () {
+            pointerStart = null;
         });
 
         // This is a static site, so a link click swaps the whole document
