@@ -78,6 +78,10 @@ b {
   color: var(--accent);
 }
 
+.social-icons a:hover {
+  color: var(--accent);
+}
+
 #menu .active {
   color: var(--accent);
 }

@@ -17,8 +17,8 @@ I started as a graphic designer in 2001, right as the dot-com bubble burst, beca
 ### Selected Impact
 
 - Scaled org from **2 to 18 engineers**, adding EM, Staff, and Team Lead layers
-- Delivered a key partner integration **2 months early,** unlocking $300K+ in ARR
-- Led a product domain generating **$2M+** in net-new ARR
+- Delivered a key partner integration **2 months early,** unlocking **$300K+** in ARR
+- Led a product domain generating **$4M+** in net-new ARR
 - Maintained **0% attrition** through rapid growth, restructuring, and leadership changes
 - Built execution systems that enabled predictable **multi-team delivery**
 
