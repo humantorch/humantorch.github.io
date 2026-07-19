@@ -67,7 +67,6 @@
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
   </article>
   {{ end }}
-  {{ partial "social_icons.html" (dict "Site" .Site "align" "left") }}
 </section>
 {{- else }}
 <!-- Default PaperMod behavior for other pages -->
