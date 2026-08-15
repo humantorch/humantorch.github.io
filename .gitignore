@@ -10,3 +10,5 @@ node_modules
 *.swp
 *.swo
 Thumbs.db
+.obsidian
+.mcp.json
