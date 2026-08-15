@@ -72,3 +72,4 @@ Scott
 08.15.2026
 
 <center><img src="/birthday-full.png" alt="today's my birthday!"></center>
+<center><small>I post this comic on my birthday every year, courtesy of <a href="https://pbfcomics.com/">Perry Bible Fellowship</a>.</small></center>
