@@ -35,7 +35,7 @@ Some days, I'm a really smart guy. Some days, for a really smart guy, I'm a real
 18. Don’t let your hobbies become your job. A person who does that becomes a person who has no hobbies.
 19. Be suspicious of anyone who seems to take pride in their ignorance. Jokingly bragging about not having read a book in years is a red flag, not a character trait.
 20. Have pets if possible. You’ll never find the level of unconditional love a pet gives you from another human ever. If you have pets, be wary of anyone your pet doesn’t seem to like.
-21. Touch every boob you can.
+21. Touch every boob you can. (with consent, obviously)
 22. Only boring people get bored. If someone tells you that something is “boring” consider the source.
 23. One of the greatest privileges of being an adult is that you can just stop doing a thing if you're not enjoying it. Don't want to do that thing anymore? As long as you're prepared to deal with the consequences of that decision you don't have to do anything you don't want to.
 24. Faith and religion can be important to you, but don’t let an institution dictate how you choose to live that faith out (see “trust your instincts”). Forge your own path with the Eternal.
