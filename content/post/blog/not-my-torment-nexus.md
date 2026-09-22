@@ -63,8 +63,6 @@ When I’m figuring out if I can actually get behind where the company’s heade
 
 If I can’t answer “yes” to all of these, I need to decide whether to push back, find another path, or walk away entirely. Once you compromise on ethos, it's way the fuck harder to get it back.  
 
-_(As an aside, my job at 1Password nails a solid 4/4 here. If you want to work somewhere that actually gives a damn about keeping your stuff safe and private, [why not join us](https://jobs.ashbyhq.com/1password)?)_
-
 ## When You Realize You're Building the Torment Nexus  
 
 Sometimes you take a job and only later realize the product you’re helping build isn’t something you believe in anymore. Maybe it shifted gradually. Maybe you didn’t ask the right questions before you signed on. Either way, you’ve ended up at TormentNexusCorp™ and now you’ve got a decision to make: **what’s your next move?**
